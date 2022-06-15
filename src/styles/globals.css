@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  display: flex;
+}
+
+#__next {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#kbar-listbox {
+  transition: height 0.3s;
+}

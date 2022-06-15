@@ -1,0 +1,12 @@
+[
+  {
+    "source": "/",
+    "destination": "/docs",
+    "permanent": true
+  },
+  {
+    "source": "/docs",
+    "destination": "/docs/getting-started",
+    "permanent": true
+  }
+]

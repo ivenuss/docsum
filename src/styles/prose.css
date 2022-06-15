@@ -1,0 +1,70 @@
+/* Headings - Anchor Tag */
+.prose .anchor {
+  @apply no-underline font-bold text-slate-900 dark:text-slate-100;
+}
+
+.prose .anchor:hover:after {
+  opacity: 1;
+}
+
+.prose .anchor:after {
+  height: 1.25rem;
+  padding-left: 0.5rem;
+  opacity: 0;
+  position: absolute;
+  width: 1.25rem;
+}
+
+.light .prose .anchor:after {
+  content: url("data:image/svg+xml,%3Csvg stroke='currentColor' fill='black' stroke-width='0' viewBox='0 0 16 16' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg' data-darkreader-inline-fill='' data-darkreader-inline-stroke='' style='--darkreader-inline-fill:currentColor; --darkreader-inline-stroke:currentColor;'%3E%3Cpath d='M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z'%3E%3C/path%3E%3Cpath d='M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.dark .prose .anchor:after {
+  content: url("data:image/svg+xml,%3Csvg stroke='currentColor' fill='white' stroke-width='0' viewBox='0 0 16 16' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg' data-darkreader-inline-fill='' data-darkreader-inline-stroke='' style='--darkreader-inline-fill:currentColor; --darkreader-inline-stroke:currentColor;'%3E%3Cpath d='M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z'%3E%3C/path%3E%3Cpath d='M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+/* Code */
+
+.prose pre {
+  @apply bg-gray-100 dark:bg-slate-800;
+}
+
+.prose code {
+  @apply text-slate-900 dark:text-gray-200 px-1 py-0.5 rounded-lg bg-gray-100 dark:bg-slate-800;
+}
+
+.prose pre code {
+  @apply text-slate-800 dark:text-gray-200 p-0;
+}
+
+/* Table */
+
+.prose table {
+  @apply block text-base overflow-auto;
+}
+
+.prose table thead {
+  @apply text-center;
+}
+
+.prose table tr {
+  @apply border-t;
+}
+
+.prose table td,
+.prose th {
+  @apply py-1.5 px-3 border border-slate-300 dark:border-slate-800 align-middle;
+}
+
+.prose table tr:nth-child(2n) {
+  @apply bg-slate-100 dark:bg-slate-800/40;
+}
+
+/* Details */
+.prose details {
+  @apply py-2 px-4 rounded bg-slate-50 border border-slate-200 dark:bg-slate-800/60 dark:border-slate-800;
+}
+
+.prose summary {
+  @apply select-none cursor-pointer;
+}

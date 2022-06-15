@@ -1,0 +1,7 @@
+@import 'globals.css';
+
+/*! purgecss start ignore */
+@import 'prism.css';
+@import 'prose.css';
+
+/*! purgecss end ignore */

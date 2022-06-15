@@ -4,7 +4,7 @@
   </p>
 </a>
 <p align="center">
-  <strong>Responsive documentation layout for your future project 📚</strong>
+  <strong>Responsive documentation layout for your future projects 📚</strong>
 </p>
 
 ---

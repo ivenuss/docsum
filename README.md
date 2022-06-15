@@ -32,3 +32,7 @@ Some functions according to Contentlayer library were taken from the Contentlaye
 
 - `/content/docs` - the folder of documentation content _(actual content as placeholder is borrowed from [Next.js](https://github.com/vercel/next.js/tree/canary/docs))_
 - `/src/config/sidebar.ts` - set `slug` of pages that you want to be visible in sidebar `pages['directory/filename']`
+
+## Use
+
+⚠ If you want to use this project, please read the [LICENSE](https://github.com/ivenuss/docsum/blob/master/LICENSE.txt) first
